@@ -12,15 +12,15 @@ body{
 }
 
 
-.container{
+.container_pomodoro{
   height:100%;
   width: 100%;
 
 }
-.outerbox {
+.outerbox_pomodoro {
   position: static;
 }
-.innerbox {
+.innerbox_pomodoro {
    position: absolute;
 box-shadow: 0 0  1000rem rgba(255,255,255,0.15);
  top: 50%;
@@ -30,7 +30,6 @@ box-shadow: 0 0  1000rem rgba(255,255,255,0.15);
   text-align: center;
 background: radial-gradient(#a22, #c22, #c22 );
 background: -moz-radial-gradient(#a22, #c22, #c22) repeat scroll 0% 0% transparent;
-  //background: #a22;/*keski väri*/
   transform: translate(-50%, -50%);
   border-radius: 50% 50%;
 border: 0.2rem solid rgba(22,22,22,0.2);
